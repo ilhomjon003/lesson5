@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navigation
+{
+    width: 100%;
+    height: 44px;
+    background-color: rgba(0,0,0,0.8);
+    position: sticky;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(20px);
+}
+
+.navigation_container
+{
+    width: 70%;
+    height: 44px;
+    margin: auto;
+}
+
+.navigation_collection
+{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation_item
+{
+    list-style-type: none;
+    
+}
+.navigation_item > a
+{
+    text-decoration: none;
+    color: #D5D5D5;
+}
+.navigation_item a i
+{
+    font-size: 23px;
+}
+
+.iphone_12{
+    width: 100%;
+    height: 80vh;
+    background-image: url('https://www.apple.com/v/home/ab/images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_largetall.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-left: 100px;
+}
+.iphone_12pro{
+    margin: 20px 0px;
+    width: 100%;
+    height: 70vh;
+    background-image: url('https://www.apple.com/v/home/ab/images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_large.jpg');
+    background-size: cover;
+    background-position: center;
+}
